@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+html {
+    font-size: 15px;
+}
+body {
+    background-color: rgb(190, 207, 240);
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body a:hover, body a:active {
+    background-color: rgb(245, 248, 250);
+    color: rgb(12, 12, 12);
+}
+body a:link, a:visited {
+    background-color: rgb(88, 206, 141);
+    color: rgb(2, 2, 1);
+}
+.klass {
+    border-style: solid;
+    border-color: mintcream;
+}
+
+#länk {
+    background-color: rgb(154, 228, 182);
+}
+header {
+    color: #20b892;
+}
+h3 {
+    color: rgb(18, 126, 63);
+}
+#frga {
+    background-color: rgb(71, 202, 152);
+}
+#frga1 {
+    background-image: url(../img/clouds.jpg);
+    height: 200px;
+    background-size: cover;
+}
+i {
+    background-color: rgb(221, 142, 96);
+}

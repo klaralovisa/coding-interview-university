@@ -1,0 +1,111 @@
+@charset "UTF-8";
+html {
+    font-size: 16px;
+} 
+
+body {
+    background-color: #699fdd;
+    color: rgba(176, 245, 17, 0.918);
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+
+nav {
+    font-size: 2rem;
+} 
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav a {
+    text-decoration:none;
+    background-color: rgb(81, 28, 224);
+    color: mediumaquamarine;
+    margin-bottom: 1rem;
+    display: block;
+}
+nav a:link, nav a:visited{
+    background-color: mediumorchid;
+    color: mediumvioletred;
+}   
+
+nav a:hover, nav a:active {
+    background-color: oldlace;
+    color: rgb(2, 58, 49);
+}
+
+.thisPage{
+    background-color: rgba(245, 101, 17, 0.918)!important;
+}
+   
+
+
+main a:link, main a:visited {
+    background-color: rgb(103, 196, 180);
+    color: seagreen;
+}
+
+main a:hover, main a:active {
+    background-color: slategrey;
+    color: rgb(81, 28, 224);
+}  
+main h2::before {
+    content: "---";
+}
+
+
+header {
+    color: rgb(2, 58, 49);
+}
+#firstPageHeader {
+    background-image: url(../img/dandelion.jpg);
+    background-size: cover;
+    height: 150px;
+}
+header h1 {
+    color: darkblue;
+}
+header h2 {
+font-family: sans-serif;
+font-style: inherit;
+} 
+
+main ul {
+    list-style: decimal;
+}
+
+img {
+    max-width: 100%;
+}
+
+#illustration {
+    width: 250px;
+}
+
+main h2, main h3, main h4 {
+color: rgb(152, 12, 233);
+} 
+
+#gallery img {
+    max-width: 100%;
+    max-height: 350px;
+} 
+
+#gallery {
+    text-align: center;
+} 
+.lines {
+    line-height: 2rem;
+}
+
+footer {
+    border: 1px solid black;
+    margin-top: 20px;
+} 
+header {
+    text-align: center;
+} 
